@@ -454,4 +454,5 @@ input.grid_12, textarea.grid_12, .uneditable-input.grid_12 { width: 720px; }
 
 /* Doc Styles */
 
-.example [class*="grid"] { background: #ccc; }
+.example * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
+.example [class*="grid"] { background: #efefef; padding: 5px; margin-bottom: 20px; }
